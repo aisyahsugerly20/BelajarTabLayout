@@ -7,8 +7,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
-import com.aisyah.belajartablayout.Fragment.DraftFragment
-import com.aisyah.belajartablayout.Fragment.InboxFragment
 import com.aisyah.belajartablayout.Fragment.SentFragment
 import com.google.android.material.tabs.TabLayout
 
