@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:text="Aisyah | Anastasia | Farent"
+                android:text="Farren"
                 android:textColor="@android:color/white"
                 android:textSize="15sp"
                 android:layout_marginLeft="24dp" />

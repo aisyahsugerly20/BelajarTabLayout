@@ -8,8 +8,6 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.aisyah.belajartablayout.Fragment.DraftFragment
-import com.aisyah.belajartablayout.Fragment.InboxFragment
-import com.aisyah.belajartablayout.Fragment.SentFragment
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {
@@ -25,9 +23,7 @@ class MainActivity : AppCompatActivity() {
         val viewPager: ViewPager = findViewById(R.id.view_pager)
         val viewPagerAdapter = ViewPagerAdapter(supportFragmentManager)
 
-        viewPagerAdapter.tambahFragment(InboxFragment(),  "Inbox")
         viewPagerAdapter.tambahFragment(DraftFragment(),  "Draft")
-        viewPagerAdapter.tambahFragment(SentFragment(),  "Sent")
         viewPager.adapter = viewPagerAdapter
         tabLayout.setupWithViewPager(viewPager)
     }
